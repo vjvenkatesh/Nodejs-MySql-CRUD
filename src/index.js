@@ -14,8 +14,8 @@ app.use("/employee",employeeRoutes);
 app.use("/sample",sampleRoutes);
 
 
-app.listen(8082, () => {
-    console.log(`App is running on port 8082`);
+app.listen(3000, () => {
+    console.log(`App is running on port 3000`);
   });
 
 
